@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631992282077' stop='1631992283111'>
+    <name>Add and remove elements</name>
+    <title>Add and remove elements</title>
+    <test-cases>
+        <test-case start='1631992282077' status='broken' stop='1631992283110'>
+            <name>Adding element to the page</name>
+            <title>Adding element to the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1631992282079' status='passed' stop='1631992282791'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='278acb85-588c-4a83-bc67-b91aac4f0c29-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631992282792' status='passed' stop='1631992282806'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f0af4733-7a77-4723-8ad6-5aed50be6e59-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='9b5b98af-3e87-49ee-8a93-57c4c4018f7a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631992282811' status='passed' stop='1631992282841'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fe86bd9d-8d02-4938-8457-34d08ba8ecce-attachment.json' type='application/json' size='60'/>
+                        <attachment title='Response' source='519349ca-db7a-4675-a9cb-c6d53e29bb6f-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps>
+                        <step start='1631992282816' status='passed' stop='1631992282837'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='15f3e1b3-ea31-424a-93b6-1a80891c7a28-attachment.json' type='application/json' size='8337'/>
+                                <attachment title='Response' source='f355ea69-2245-45bc-9c25-397b341b2a17-attachment.json' type='application/json' size='2019'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631992282842' status='passed' stop='1631992282851'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='10cc9fc2-b55a-4d46-9aed-0b2dd1b5cb7d-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='68fb9638-081a-4032-8c81-75657e36e8d9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631992282855' status='passed' stop='1631992283109'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d0085cb7-7530-4518-8cb2-c3692812c78f-attachment.png' type='image/png' size='79257'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Options must be an object</message>
+                <stack-trace>TypeError: Options must be an object
+                    at Element.click (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/webdriverio/build/commands/element/click.js:78:15)
+                    at Element.wrapCommandFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/@wdio/utils/build/shim.js:106:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.elementErrorHandlerCallbackFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at async Element.wrapCommandFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/@wdio/utils/build/shim.js:106:29)
+                    at async Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/addremove.js:12:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

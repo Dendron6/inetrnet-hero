@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1631994819266' stop='1631994820734'>
+    <name>Add and remove elements</name>
+    <title>Add and remove elements</title>
+    <test-cases>
+        <test-case start='1631994819266' status='broken' stop='1631994820733'>
+            <name>Adding element to the page</name>
+            <title>Adding element to the page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1631994819275' status='passed' stop='1631994819999'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='50d5c6bd-bf6d-4771-b413-554c00b5b5a1-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631994820002' status='passed' stop='1631994820016'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f6229de1-63df-4eb9-be97-7e3ee0ba4aa7-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='575e7a4e-5b40-41e9-b972-a4872d4cb86d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631994820023' status='passed' stop='1631994820105'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='950a44a3-07a5-49d1-83de-0d8d99b5ea96-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps>
+                        <step start='1631994820025' status='passed' stop='1631994820037'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='7300410f-8d90-49ea-a350-94b0d6691d4f-attachment.json' type='application/json' size='60'/>
+                                <attachment title='Response' source='745219b3-f6f7-46b3-96ef-1394a8c96258-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1631994820043' status='passed' stop='1631994820054'>
+                            <name>POST /session/:sessionId/element/376d9aa0-82c0-48e3-8c82-728ba4fd638e/click</name>
+                            <title>POST /session/:sessionId/element/376d9aa0-82c0-48e3-8c82-728ba4fd638e/click</title>
+                            <attachments>
+                                <attachment title='Response' source='bea2eb7c-d79b-4160-9c94-a04f5dae0104-attachment.json' type='application/json' size='2019'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1631994820105' status='passed' stop='1631994820114'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4f9301fc-92d1-489e-9ea7-db1fc752cb89-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='0ef690b9-f8b4-44c0-86f9-14aa68a612a3-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1631994820116' status='passed' stop='1631994820150'>
+                    <name>POST /session/:sessionId/element/376d9aa0-82c0-48e3-8c82-728ba4fd638e/click</name>
+                    <title>POST /session/:sessionId/element/376d9aa0-82c0-48e3-8c82-728ba4fd638e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1631994820275' status='passed' stop='1631994820732'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1146f36e-70f9-473b-9db6-04696cd97f83-attachment.png' type='image/png' size='83745'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Maximum call stack size exceeded</message>
+                <stack-trace>RangeError: Maximum call stack size exceeded
+                    at inspect (node:internal/util/inspect:284:17)
+                    at formatWithOptionsInternal (node:internal/util/inspect:2004:40)
+                    at formatWithOptions (node:internal/util/inspect:1886:10)
+                    at console.value (node:internal/console/constructor:327:14)
+                    at console.log (node:internal/console/constructor:363:61)
+                    at ten (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/addremove.js:16:21)
+                    at ten (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/addremove.js:17:12)
+                    at ten (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/addremove.js:17:12)
+                    at ten (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/addremove.js:17:12)
+                    at ten (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/addremove.js:17:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

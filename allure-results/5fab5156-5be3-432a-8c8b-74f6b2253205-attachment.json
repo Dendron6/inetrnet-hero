@@ -1,0 +1,151 @@
+{
+  "actions": [
+    {
+      "type": "pointer",
+      "id": "pointer1",
+      "parameters": {
+        "pointerType": "mouse"
+      },
+      "actions": [
+        {
+          "type": "pointerMove",
+          "origin": {
+            "sessionId": "95072705a97573508b134a47951f0539",
+            "elementId": "bb495684-e0ce-4dae-9f11-fa0ae93336da",
+            "element-6066-11e4-a52e-4f735466cecf": "bb495684-e0ce-4dae-9f11-fa0ae93336da",
+            "selector": ".example button",
+            "parent": {
+              "sessionId": "95072705a97573508b134a47951f0539",
+              "capabilities": {
+                "acceptInsecureCerts": true,
+                "browserName": "chrome",
+                "browserVersion": "93.0.4577.82",
+                "chrome": {
+                  "chromedriverVersion": "93.0.4577.15 (660fc11082ba57405eca2e8c49c3e1af756fbfae-refs/branch-heads/4577@{#203})",
+                  "userDataDir": "/var/folders/pc/pq5zm_2x05q9f51tgdy0s8rw0000gn/T/.com.google.Chrome.nu1rRg"
+                },
+                "goog:chromeOptions": {
+                  "debuggerAddress": "localhost:53068"
+                },
+                "networkConnectionEnabled": false,
+                "pageLoadStrategy": "normal",
+                "platformName": "mac os x",
+                "proxy": {},
+                "setWindowRect": true,
+                "strictFileInteractability": false,
+                "timeouts": {
+                  "implicit": 0,
+                  "pageLoad": 300000,
+                  "script": 30000
+                },
+                "unhandledPromptBehavior": "dismiss and notify",
+                "webauthn:extension:credBlob": true,
+                "webauthn:extension:largeBlob": true,
+                "webauthn:virtualAuthenticators": true
+              },
+              "config": {
+                "specs": [
+                  "/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/addremove.js"
+                ],
+                "suites": {},
+                "exclude": [],
+                "logLevel": "info",
+                "logLevels": {},
+                "excludeDriverLogs": [],
+                "bail": 0,
+                "waitforInterval": 500,
+                "waitforTimeout": 10000,
+                "framework": "mocha",
+                "reporters": [
+                  "spec",
+                  [
+                    "allure",
+                    {
+                      "outputDir": "allure-results"
+                    }
+                  ]
+                ],
+                "services": [
+                  "chromedriver"
+                ],
+                "maxInstances": 10,
+                "maxInstancesPerCapability": 100,
+                "filesToWatch": [],
+                "connectionRetryTimeout": 120000,
+                "connectionRetryCount": 3,
+                "execArgv": [],
+                "runnerEnv": {},
+                "runner": "local",
+                "specFileRetries": 0,
+                "specFileRetriesDelay": 0,
+                "specFileRetriesDeferred": false,
+                "reporterSyncInterval": 100,
+                "reporterSyncTimeout": 5000,
+                "cucumberFeaturesWithLineNumbers": [],
+                "autoCompileOpts": {
+                  "autoCompile": true,
+                  "tsNodeOpts": {
+                    "transpileOnly": true
+                  },
+                  "babelOpts": {}
+                },
+                "mochaOpts": {
+                  "timeout": 60000,
+                  "ui": "bdd"
+                },
+                "jasmineOpts": {
+                  "defaultTimeoutInterval": 10000
+                },
+                "cucumberOpts": {
+                  "timeout": 10000
+                },
+                "onPrepare": [],
+                "onWorkerStart": [],
+                "before": [],
+                "beforeSession": [],
+                "beforeSuite": [],
+                "beforeHook": [],
+                "beforeTest": [],
+                "beforeCommand": [],
+                "afterCommand": [],
+                "afterTest": [
+                  null
+                ],
+                "afterHook": [],
+                "afterSuite": [],
+                "afterSession": [],
+                "after": [],
+                "onComplete": [],
+                "onReload": [],
+                "beforeFeature": [],
+                "beforeScenario": [],
+                "beforeStep": [],
+                "afterStep": [],
+                "afterScenario": [],
+                "afterFeature": [],
+                "baseUrl": "https://the-internet.herokuapp.com/",
+                "_": [],
+                "spec": [
+                  "./test/specs/addremove.js"
+                ],
+                "$0": "/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/.bin/wdio",
+                "ignoredWorkerServices": []
+              }
+            },
+            "isReactElement": false
+          },
+          "x": 0,
+          "y": 0
+        },
+        {
+          "type": "pointerDown",
+          "button": 0
+        },
+        {
+          "type": "pointerUp",
+          "button": 0
+        }
+      ]
+    }
+  ]
+}
