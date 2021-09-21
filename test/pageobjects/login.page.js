@@ -13,6 +13,9 @@ class LoginPage extends Page {
 
     //addremove
     get btnExample () { return $(".example button") };
+    get deleteBtn () { return $('#elements button') };
+    get listDeleteBtns () {return $$(".added-manually")};
+
 
     /**
      * a method to encapsule automation code to interact with the page
@@ -24,12 +27,18 @@ class LoginPage extends Page {
         await this.btnSubmit.click();
     }
 
-    //click simulator
-
-    async clickFunciton (amount=1) {
+    //click simulator addremove
+    async clickFunciton (amount=10, button) {
         while (amount>0) {
-            console.log(this.btnExample.click());
+            await console.log(button.click());
             amount--;
+        }
+    }
+
+    async deleteClick(amount=10, list){
+        while (amount>=0) {
+            await console.log(list[amount].click());
+           amount--;
         }
     }
 
