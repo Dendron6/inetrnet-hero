@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "one": "npx wdio --spec ./test/specs/addremove.js",
+    "one": "npx wdio --spec ./test/specs/basicauth.js",
     "two": "npx wdio --spec ./test/specs/"
   },
   "keywords": [],

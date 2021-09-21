@@ -13,8 +13,12 @@ class LoginPage extends Page {
 
     //addremove
     get btnExample () { return $(".example button") };
-    get deleteBtn () { return $('#elements button') };
+    //get deleteBtn () { return $('#elements button') };
     get listDeleteBtns () {return $$(".added-manually")};
+
+    //basic authenticatioin page
+
+    get textCofirmation (){return $('.example p')}
 
 
     /**
