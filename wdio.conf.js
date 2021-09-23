@@ -276,4 +276,7 @@ exports.config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
+    // ...
+    services: ['intercept'],
+    // ...
 }

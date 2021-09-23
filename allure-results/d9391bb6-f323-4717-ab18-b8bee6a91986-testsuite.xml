@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632369546205' stop='1632369547775'>
+    <name>Check Boxes</name>
+    <title>Check Boxes</title>
+    <test-cases>
+        <test-case start='1632369546207' status='broken' stop='1632369547771'>
+            <name>We need to find check boxes on the page and check the unchecked</name>
+            <title>We need to find check boxes on the page and check the unchecked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632369546217' status='passed' stop='1632369546981'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='5c608e20-0731-4f5d-ad36-d9a687be79e3-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369546988' status='passed' stop='1632369547004'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='768b0dd8-a3b7-4e10-8470-12d5cf402451-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='366ce7d2-222f-44cf-9c72-5e6c30c1a78e-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369547073' status='passed' stop='1632369547768'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5c97f2d7-a3cc-4a4a-b13e-a6004e371c16-attachment.png' type='image/png' size='83793'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'getAttribute' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'getAttribute' of undefined
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/checkboxes.js:8:35)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,4 +1,5 @@
 const Page = require('./page');
+const axios = require("axios");
 
 /**
  * sub page containing specific selectors and methods for a specific page
@@ -7,18 +8,49 @@ class LoginPage extends Page {
     /**
      * define selectors using getter methods
      */
-    get inputUsername () { return $('#username') }
-    get inputPassword () { return $('#password') }
-    get btnSubmit () { return $('button[type="submit"]') }
+
+    get inputUsername() {
+        return $('#username')
+    }
+
+    get inputPassword() {
+        return $('#password')
+    }
+
+    get btnSubmit() {
+        return $('button[type="submit"]')
+    }
 
     //addremove
-    get btnExample () { return $(".example button") };
+    get btnExample() {
+        return $(".example button")
+    };
+
     //get deleteBtn () { return $('#elements button') };
-    get listDeleteBtns () {return $$(".added-manually")};
+    get listDeleteBtns() {
+        return $$(".added-manually")
+    };
 
     //basic authenticatioin page
+    get textCofirmation() {
+        return $('.example p')
+    }
 
-    get textCofirmation (){return $('.example p')}
+    // brokenimages
+    get listImg() {
+        return $$(".example img")
+    };
+
+    async getId(){
+        const ls = []
+        for (let i = 0; i<3; i++){
+            await ls.push(this.listImg[i].getAttribute('src'))
+            return ls.map(x =>(axios.get('https://the-internet.herokuapp.com/'+ x)).status)
+        }
+    }
+
+
+    //checkboxes
 
 
     /**

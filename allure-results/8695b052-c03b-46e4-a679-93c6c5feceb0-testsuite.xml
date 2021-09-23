@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632379824630' stop='1632379830268'>
+    <name>Check Boxes</name>
+    <title>Check Boxes</title>
+    <test-cases>
+        <test-case start='1632379824631' status='passed' stop='1632379830267'>
+            <name>We need to find check boxes on the page and check the unchecked</name>
+            <title>We need to find check boxes on the page and check the unchecked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632379824638' status='passed' stop='1632379830158'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='39c83a83-41a5-4a5f-85c6-7cb74d48d89b-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632379830184' status='passed' stop='1632379830251'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='778f3e07-0bcd-4c52-bc14-e574935e369e-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='9c3c01de-cb26-4157-b95f-184445e5b9dd-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

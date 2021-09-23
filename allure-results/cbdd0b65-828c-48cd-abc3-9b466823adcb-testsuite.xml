@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632373907478' stop='1632373909481'>
+    <name>Broken images</name>
+    <title>Broken images</title>
+    <test-cases>
+        <test-case start='1632373907478' status='broken' stop='1632373909479'>
+            <name>Fix the image 1</name>
+            <title>Fix the image 1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632373907496' status='passed' stop='1632373909033'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='24d03a88-a874-48de-ae6d-9b47ec5754de-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632373909037' status='passed' stop='1632373909045'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='fc35347d-9924-4586-9bff-5271df85d3bc-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='e0076426-2eb9-489d-9490-6ac87e7b31e7-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632373909061' status='passed' stop='1632373909065'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='109dc365-43ca-402a-8be4-fefaf8718046-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='7dde88de-fc7e-4f82-884f-40e4f137e500-attachment.json' type='application/json' size='10'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632373909068' status='passed' stop='1632373909478'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='8ca69d65-37b4-4936-9c55-019a46b6d5dc-attachment.png' type='image/png' size='67695'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>path.map is not a function</message>
+                <stack-trace>TypeError: path.map is not a function
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/brokenimages.js:17:30)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

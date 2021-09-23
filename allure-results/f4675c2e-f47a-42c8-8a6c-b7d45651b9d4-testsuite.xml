@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632372406142' stop='1632372411633'>
+    <name>Check Boxes</name>
+    <title>Check Boxes</title>
+    <test-cases>
+        <test-case start='1632372406143' status='passed' stop='1632372411631'>
+            <name>We need to find check boxes on the page and check the unchecked</name>
+            <title>We need to find check boxes on the page and check the unchecked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632372406159' status='passed' stop='1632372411623'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='4af35086-23a9-474d-b03c-5cb156e897b2-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

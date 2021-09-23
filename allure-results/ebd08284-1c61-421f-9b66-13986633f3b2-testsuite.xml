@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632364639859' stop='1632364646018'>
+    <name>Broken images</name>
+    <title>Broken images</title>
+    <test-cases>
+        <test-case start='1632364639860' status='broken' stop='1632364646017'>
+            <name>Fix the image 1</name>
+            <title>Fix the image 1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632364639865' status='passed' stop='1632364645328'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='6d8a97c4-9e46-4690-836c-f72037c339d6-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632364645333' status='passed' stop='1632364645339'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='5bf78a47-b789-442b-9507-801c7b0f7aca-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='992b6ddf-eedf-4391-aa31-b783f5ab4cbe-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632364645348' status='passed' stop='1632364645394'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='a200f730-2800-4f76-819d-68182952b3e2-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='a8fa3768-2876-432e-8513-8836e16bffb8-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632364645349' status='passed' stop='1632364645393'>
+                            <name>getElementAttribute</name>
+                            <title>getElementAttribute</title>
+                            <attachments>
+                                <attachment title='Request' source='62e2fd8d-1531-4443-9a4f-0af7a78d065b-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='c4911f75-f12d-4cff-b1e8-49680b57b927-attachment.json' type='application/json' size='10'/>
+                            </attachments>
+                            <steps>
+                                <step start='1632364645350' status='passed' stop='1632364645392'>
+                                    <name>getElementAttribute</name>
+                                    <title>getElementAttribute</title>
+                                    <attachments>
+                                        <attachment title='Request' source='ee7374ef-4df1-4fcd-acfb-de53df750262-attachment.json' type='application/json' size='47'/>
+                                        <attachment title='Response' source='d3565607-08df-4d4a-9f3a-e00c0015956f-attachment.json' type='application/json' size='22'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1632364645354' status='passed' stop='1632364645392'>
+                                            <name>getElementAttribute</name>
+                                            <title>getElementAttribute</title>
+                                            <attachments>
+                                                <attachment title='Request' source='93227669-895d-4289-bae9-4881c0c07075-attachment.json' type='application/json' size='47'/>
+                                                <attachment title='Response' source='fd7a111d-09bf-4258-ab45-4b3749989bf6-attachment.json' type='application/json' size='10'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632364645394' status='passed' stop='1632364645436'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='5b8ec849-4c53-414c-9e4b-1a3c61bf4d81-attachment.json' type='application/json' size='70'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632364645782' status='passed' stop='1632364646016'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c5871b82-a827-46ac-b7e9-d4afbaca444e-attachment.png' type='image/png' size='24716'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot convert object to primitive value</message>
+                <stack-trace>TypeError: Cannot convert object to primitive value
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/brokenimages.js:21:76)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

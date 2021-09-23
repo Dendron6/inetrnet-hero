@@ -1,0 +1,227 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632369634197' stop='1632369645588'>
+    <name>Check Boxes</name>
+    <title>Check Boxes</title>
+    <test-cases>
+        <test-case start='1632369634198' status='failed' stop='1632369645580'>
+            <name>We need to find check boxes on the page and check the unchecked</name>
+            <title>We need to find check boxes on the page and check the unchecked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632369634207' status='passed' stop='1632369635028'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='0eadc27f-57b6-4fea-aba8-15ea13ba1f53-attachment.json' type='application/json' size='60'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369635051' status='passed' stop='1632369635066'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='25781677-d88a-4eff-ab3e-ed4e46f7f62e-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Response' source='a9ab7583-2246-4dfd-9efd-b00e0dc745fe-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369635100' status='passed' stop='1632369635128'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='caf90e6c-7a5a-4d98-a0fc-5d1c81469987-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369635589' status='passed' stop='1632369635602'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='6bc74bed-fb29-45c2-95c7-03542320ccd5-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369636088' status='passed' stop='1632369636094'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='b6405777-0839-4d02-9501-3be06218439a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369636588' status='passed' stop='1632369636595'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='e723f576-8a10-4537-a235-f500546b1804-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369637088' status='passed' stop='1632369637105'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='da36f981-ba00-49f5-b79c-d5fc9946a638-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369637594' status='passed' stop='1632369637625'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='d1a22333-4002-49b4-bc05-f862b3887b63-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369638088' status='passed' stop='1632369638114'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='3c700740-ec13-4b68-bddb-00711b8e3dfa-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369638589' status='passed' stop='1632369638603'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='1b4fc7a3-7597-40ce-b95f-a829c1036565-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369639096' status='passed' stop='1632369639104'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='5c4e9216-dae7-4d0e-80e0-1fd39e92a6e3-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369639588' status='passed' stop='1632369639603'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='20c3c43f-bcbb-4f88-8b1f-7ca4c417b751-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369640091' status='passed' stop='1632369640102'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='508550f9-40cc-47c5-870a-8f362c5dc917-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369640589' status='passed' stop='1632369640599'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='41b2221a-e609-492c-b15e-e599adc8090f-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369641088' status='passed' stop='1632369641094'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='47ae684a-67af-44bc-80ce-77145f0367c7-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369641588' status='passed' stop='1632369641596'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='45eb33ad-1718-4dad-9320-3e9d4edccbaf-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369642088' status='passed' stop='1632369642099'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='95bd56dc-4f5c-44b4-98b5-95f9c504aee2-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369642589' status='passed' stop='1632369642598'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='1114b531-6e2d-47b2-8d4e-24eaa92ff761-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369643094' status='passed' stop='1632369643109'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='99a4f1fa-1c66-48a9-bb92-5f1e7f00f26a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369643588' status='passed' stop='1632369643595'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='57867e8b-c409-4ebd-8d7e-be192f05aafe-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369644090' status='passed' stop='1632369644096'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='2e5c3261-6060-4330-8826-ad24f8692d2d-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369644588' status='passed' stop='1632369644593'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='6be1fd92-0261-4d7c-8560-801b9e72564a-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632369645101' status='passed' stop='1632369645577'>
+                    <name>isElementSelected</name>
+                    <title>isElementSelected</title>
+                    <attachments>
+                        <attachment title='Request' source='f3efdd45-71de-4907-8e12-12eb5c6e1938-attachment.json' type='application/json' size='30'/>
+                        <attachment title='Screenshot' source='12fbd796-5f73-423b-9b2c-440c67ed5648-attachment.png' type='image/png' size='83793'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632369645102' status='passed' stop='1632369645271'>
+                            <name>takeScreenshot</name>
+                            <title>takeScreenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect $(`#checkboxes`) to be checked
+                
+                Expected: "checked"
+                Received: "not checked"</message>
+                <stack-trace>Error: Expect $(`#checkboxes`) to be checked
+                
+                Expected: "checked"
+                Received: "not checked"
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/checkboxes.js:8:36)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
