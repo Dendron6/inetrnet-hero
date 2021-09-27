@@ -1,0 +1,130 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632777428132' stop='1632777430707'>
+    <name>Dynamic Controls Test</name>
+    <title>Dynamic Controls Test</title>
+    <test-cases>
+        <test-case start='1632777428134' status='broken' stop='1632777430705'>
+            <name>I frame entering test</name>
+            <title>I frame entering test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632777428163' status='passed' stop='1632777429663'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='25aa7b53-96d7-4cab-8c57-bc870b08aaf8-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429708' status='passed' stop='1632777429790'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='d8784a50-0d5b-4002-b757-4006916a113c-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='d823dfeb-afd0-4c96-bc1e-ea18737d3e5b-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429806' status='passed' stop='1632777429846'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='26ad1fc5-727e-440d-905f-108ab4118830-attachment.json' type='application/json' size='8283'/>
+                        <attachment title='Response' source='9cab6fd3-8492-4879-b2aa-6109f68fa5c8-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429852' status='passed' stop='1632777429858'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='c4b47726-6d3e-4adc-8fc7-09e487a92aa2-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='ac10f79e-fa4a-458b-9a47-96200687ed9c-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429869' status='passed' stop='1632777429876'>
+                    <name>switchToFrame</name>
+                    <title>switchToFrame</title>
+                    <attachments>
+                        <attachment title='Request' source='44025470-1574-4cfa-98dd-57b898af1f9e-attachment.json' type='application/json' size='3024'/>
+                        <attachment title='Response' source='1c4a052a-7013-4eee-9507-be5a40cc23a4-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429879' status='passed' stop='1632777429883'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='09cd5c81-6ed3-4623-b457-f801524de061-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='25240627-d62c-4613-96af-f93ffe3e2a14-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429893' status='passed' stop='1632777429910'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='df06471a-ed9a-4f6a-9b27-0ec29dc638b7-attachment.json' type='application/json' size='8283'/>
+                        <attachment title='Response' source='abda1c82-dd2f-4b62-acf5-a81c2323b8ee-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429913' status='passed' stop='1632777429920'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='6d59510c-d124-4a40-adc4-815473a3a7a0-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='26404a3a-8e04-400b-a077-50894784027f-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777429938' status='passed' stop='1632777430003'>
+                    <name>performActions</name>
+                    <title>performActions</title>
+                    <attachments>
+                        <attachment title='Request' source='5e19a20a-dfff-46d5-9629-8295572d182b-attachment.json' type='application/json' size='4579'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777430007' status='passed' stop='1632777430012'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='2ee5ef43-9ae6-4c03-9bc6-d2d12e9dc783-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='cc629b09-537e-4edf-960e-3f741c91823c-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777430019' status='passed' stop='1632777430704'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='79947a8b-cf45-478d-8265-3feffc85d73c-attachment.png' type='image/png' size='111659'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>"keys" command requires a string or array of strings as parameter</message>
+                <stack-trace>Error: "keys" command requires a string or array of strings as parameter
+                    at Element.keys (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/webdriverio/build/commands/browser/keys.js:45:15)
+                    at Element.wrapCommandFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/@wdio/utils/build/shim.js:106:38)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/@wdio/utils/build/shim.js:106:29)
+                    at async Element.elementErrorHandlerCallbackFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/webdriverio/build/middlewares.js:24:32)
+                    at async Element.wrapCommandFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/@wdio/utils/build/shim.js:106:29)
+                    at async iFramePage.sendTextBody (/Users/denyskhomenko/WebstormProjects/hookupio/test/pageobjects/iframe.page.js:24:9)
+                    at async Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/iframe.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

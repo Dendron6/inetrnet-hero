@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632770832420' stop='1632770833262'>
+    <name>Dynamic Controls Test</name>
+    <title>Dynamic Controls Test</title>
+    <test-cases>
+        <test-case start='1632770832421' status='passed' stop='1632770833257'>
+            <name>Checkbox element is checked</name>
+            <title>Checkbox element is checked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632770832433' status='passed' stop='1632770833207'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='3ed35c1e-df33-45b5-a5a6-e226a4027cb5-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632770833219' status='passed' stop='1632770833225'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='5b1bd3d1-50ab-41e2-af58-3ef1d0cc5afe-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='45873513-5725-463e-8118-a30d35d30f6e-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632770833241' status='passed' stop='1632770833250'>
+                    <name>getElementText</name>
+                    <title>getElementText</title>
+                    <attachments>
+                        <attachment title='Request' source='38c8ec78-b7c3-463d-ad15-ec7101c6e19b-attachment.json' type='application/json' size='30'/>
+                        <attachment title='Response' source='a0700fd4-21a2-4f22-a29e-4236dd1afe2d-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

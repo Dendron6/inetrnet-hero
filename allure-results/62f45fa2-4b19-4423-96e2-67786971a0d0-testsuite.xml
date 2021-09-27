@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632774895733' stop='1632774898088'>
+    <name>Dynamic Controls Test</name>
+    <title>Dynamic Controls Test</title>
+    <test-cases>
+        <test-case start='1632774895733' status='broken' stop='1632774898088'>
+            <name>Checkbox element is checked</name>
+            <title>Checkbox element is checked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632774895741' status='passed' stop='1632774897381'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='61cc82e0-30d2-4b87-a8d3-c1f9b7380595-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632774897502' status='passed' stop='1632774897521'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='417007ef-0c3d-4cda-8017-efd47e9ddd04-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='0cfb868a-d751-4f38-9197-ea7b6575a006-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632774897541' status='passed' stop='1632774897582'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='d7e1d576-9f1d-41c6-b8e0-2084f15c5c5d-attachment.json' type='application/json' size='8283'/>
+                        <attachment title='Response' source='26846cc4-e795-4108-ba38-e961faa659cb-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632774897590' status='broken' stop='1632774898087'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='18336579-26e6-402d-af36-d1b57bedd64e-attachment.json' type='application/json' size='54'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632774897595' status='passed' stop='1632774897599'>
+                            <name>switchToFrame</name>
+                            <title>switchToFrame</title>
+                            <attachments>
+                                <attachment title='Request' source='041af37f-df9c-414b-8258-c9d3d70c6bf6-attachment.json' type='application/json' size='14'/>
+                                <attachment title='Response' source='1e3802db-2f78-4b55-8eb5-a250b67d7476-attachment.json' type='application/json' size='56'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1632774897624' status='passed' stop='1632774898086'>
+                            <name>takeScreenshot</name>
+                            <title>takeScreenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='41664406-ae8c-4c92-99bf-5cf9a232a560-attachment.png' type='image/png' size='111659'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot convert object to primitive value</message>
+                <stack-trace>Cannot convert object to primitive value
+                TypeError: Cannot convert object to primitive value
+                    at DevToolsDriver.switchToFrame (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/devtools/build/commands/switchToFrame.js:65:60)
+                    at Browser.wrappedCommand (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/devtools/build/devtoolsdriver.js:102:55)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/@wdio/utils/build/shim.js:106:29)
+                    at async Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/iframe.js:8:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

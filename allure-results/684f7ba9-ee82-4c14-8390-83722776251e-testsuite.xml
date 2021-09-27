@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632777837452' stop='1632777839064'>
+    <name>Dynamic Controls Test</name>
+    <title>Dynamic Controls Test</title>
+    <test-cases>
+        <test-case start='1632777837452' status='broken' stop='1632777839063'>
+            <name>I frame entering test</name>
+            <title>I frame entering test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632777837460' status='passed' stop='1632777838486'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='096be5c4-4dd3-4da6-a595-2ea09ebb4bf0-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838536' status='passed' stop='1632777838541'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='97438e05-4244-495c-8131-bac7b993f2cf-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='77590ce5-9c41-4c44-a713-f8a6bab11bac-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838553' status='passed' stop='1632777838592'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='7dbe2d2e-45e1-424e-a0f2-06bca0f5c490-attachment.json' type='application/json' size='8283'/>
+                        <attachment title='Response' source='b49e088f-7b73-42a0-a5ab-71b99d1e433d-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838605' status='passed' stop='1632777838607'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='8b8841be-f3b0-4ed1-926f-9a24233b78df-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='bd9827c0-7463-4bb3-8930-ece4333fe445-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838631' status='passed' stop='1632777838636'>
+                    <name>switchToFrame</name>
+                    <title>switchToFrame</title>
+                    <attachments>
+                        <attachment title='Request' source='f3b7b029-bdfd-4794-9d9c-0815b7b9aa45-attachment.json' type='application/json' size='3024'/>
+                        <attachment title='Response' source='bfc5f100-e844-4b58-b011-a75642a7bb30-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838644' status='passed' stop='1632777838652'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='0b8d974e-c663-4f60-b5f9-72e54665ee7e-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='cd36b128-f525-422a-a72c-ef6ceb2ddabb-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838662' status='passed' stop='1632777838679'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='9fc1e9c7-91e7-4faf-a481-e1f10cc63c96-attachment.json' type='application/json' size='8283'/>
+                        <attachment title='Response' source='59ee2f4c-dca7-47ae-b1bf-50d56887b80c-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838683' status='passed' stop='1632777838685'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='9ba7c10f-c77a-4ee5-8e52-7d8064fabd59-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='2257f25a-ec79-4b5e-bb1b-26bee47ab994-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632777838721' status='passed' stop='1632777839061'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='fed7112a-916a-46e0-8610-c9511b3009a7-attachment.png' type='image/png' size='111953'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>elem[prop] is not a function</message>
+                <stack-trace>TypeError: elem[prop] is not a function
+                    at /Users/denyskhomenko/WebstormProjects/hookupio/node_modules/@wdio/utils/build/shim.js:222:38
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/iframe.js:13:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

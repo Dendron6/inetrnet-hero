@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632778170008' stop='1632778172743'>
+    <name>Dynamic Controls Test</name>
+    <title>Dynamic Controls Test</title>
+    <test-cases>
+        <test-case start='1632778170010' status='broken' stop='1632778172742'>
+            <name>I frame entering test</name>
+            <title>I frame entering test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632778170033' status='passed' stop='1632778172154'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='a2bcbca5-bea9-4268-8e1d-94b77731a659-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632778172186' status='passed' stop='1632778172198'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='024eaa04-fd88-4189-9b4d-bd69fb921280-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='b5d76153-645c-4da2-992e-a0f79c55011e-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632778172215' status='passed' stop='1632778172269'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='15c47988-f284-40de-b27f-24c6d8c6ee38-attachment.json' type='application/json' size='8283'/>
+                        <attachment title='Response' source='a4ee1628-d0cc-4f51-8f91-0591ea9948f8-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632778172274' status='passed' stop='1632778172276'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='8a68011a-5670-4bca-948f-5492b455379e-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='2b7824c9-82e3-418d-9bf2-9948489a8397-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632778172287' status='passed' stop='1632778172293'>
+                    <name>switchToFrame</name>
+                    <title>switchToFrame</title>
+                    <attachments>
+                        <attachment title='Request' source='80f2e05e-ec1a-47f4-81a5-ed330aaf6d59-attachment.json' type='application/json' size='3024'/>
+                        <attachment title='Response' source='2bb2ce27-119f-44e9-969d-c70482b195a5-attachment.json' type='application/json' size='23'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632778172298' status='passed' stop='1632778172302'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='43e8fbdd-28f6-47e8-ab4b-ec22db284e1a-attachment.json' type='application/json' size='54'/>
+                        <attachment title='Response' source='49246c2f-0dc6-4223-aa0e-49e3ba489e66-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632778172307' status='passed' stop='1632778172319'>
+                    <name>executeScript</name>
+                    <title>executeScript</title>
+                    <attachments>
+                        <attachment title='Request' source='2183fc7d-70ac-42d4-9bae-4b77f2803ad0-attachment.json' type='application/json' size='8283'/>
+                        <attachment title='Response' source='ca9f153e-558f-447a-a5a9-a86c3047cddb-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632778172323' status='passed' stop='1632778172741'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a44f4e54-56b5-4a3c-9c5e-9dea7876f4b1-attachment.png' type='image/png' size='111955'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>iFramePage.$ is not a function</message>
+                <stack-trace>TypeError: iFramePage.$ is not a function
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/iframe.js:11:26)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

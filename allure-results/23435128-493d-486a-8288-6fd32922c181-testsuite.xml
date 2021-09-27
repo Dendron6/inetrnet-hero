@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632427761344' stop='1632427762761'>
+    <name>Broken images</name>
+    <title>Broken images</title>
+    <test-cases>
+        <test-case start='1632427761345' status='failed' stop='1632427762760'>
+            <name>Fix the image 1</name>
+            <title>Fix the image 1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632427761360' status='passed' stop='1632427762134'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='dacda32a-21d8-4d2b-92bd-915636e3792b-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632427762142' status='passed' stop='1632427762160'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='91e6d6e3-3421-41d2-a4a4-bc70079bb4d5-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='3f64c86c-6489-4c55-8242-82f67fa92531-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632427762173' status='passed' stop='1632427762229'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='ca7ee8d7-8692-4302-a774-0285fea5804a-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='55573c6b-4394-4b5d-a48a-42aebfce6173-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632427762175' status='passed' stop='1632427762228'>
+                            <name>getElementAttribute</name>
+                            <title>getElementAttribute</title>
+                            <attachments>
+                                <attachment title='Request' source='b1d3e653-a1ae-4a0f-b83b-3bc0b302df13-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='4d36117f-633b-42da-9845-81984fcb4e69-attachment.json' type='application/json' size='10'/>
+                            </attachments>
+                            <steps>
+                                <step start='1632427762176' status='passed' stop='1632427762226'>
+                                    <name>getElementAttribute</name>
+                                    <title>getElementAttribute</title>
+                                    <attachments>
+                                        <attachment title='Request' source='0d8fafa8-79ea-4e14-9853-d9141ee0c9f2-attachment.json' type='application/json' size='47'/>
+                                        <attachment title='Response' source='0a79a370-f77c-4d6f-a521-927f7154200c-attachment.json' type='application/json' size='10'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632427762426' status='passed' stop='1632427762759'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='670a660a-91e1-4db1-8d8e-1aa0c4a78de3-attachment.png' type='image/png' size='67672'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expect(received).toEqual(expected) // deep equality
+                
+                Expected: 201
+                Received: 200</message>
+                <stack-trace>Error: expect(received).toEqual(expected) // deep equality
+                
+                Expected: 201
+                Received: 200
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/brokenimages.js:15:51)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

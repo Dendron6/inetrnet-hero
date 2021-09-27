@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632420829925' stop='1632420830884'>
+    <name>Broken images</name>
+    <title>Broken images</title>
+    <test-cases>
+        <test-case start='1632420829926' status='broken' stop='1632420830883'>
+            <name>Fix the image 1</name>
+            <title>Fix the image 1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632420829931' status='passed' stop='1632420830627'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='6bf376c8-29e4-4031-b7ec-84a0d9e567b3-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632420830631' status='passed' stop='1632420830638'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='5c8cd89b-1a51-4c83-8fbc-55929bd6f9f2-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='19636df3-a5d5-4d03-bfa0-2ed61aca129d-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632420830646' status='passed' stop='1632420830670'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='f2406386-f4c5-4608-b76c-8e23611fc320-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='a00329fa-4bfe-4639-9501-420a3a868dcb-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632420830647' status='passed' stop='1632420830669'>
+                            <name>getElementAttribute</name>
+                            <title>getElementAttribute</title>
+                            <attachments>
+                                <attachment title='Request' source='92477925-4a84-43d4-b1dd-27ae1715bb7c-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='a419cf09-5c46-4f7c-956c-758a61deb183-attachment.json' type='application/json' size='10'/>
+                            </attachments>
+                            <steps>
+                                <step start='1632420830656' status='passed' stop='1632420830668'>
+                                    <name>getElementAttribute</name>
+                                    <title>getElementAttribute</title>
+                                    <attachments>
+                                        <attachment title='Request' source='153c528b-e68b-419c-9b08-9e9fbc5603ea-attachment.json' type='application/json' size='47'/>
+                                        <attachment title='Response' source='ea4c27eb-5e25-42c0-89a1-523073e8f98f-attachment.json' type='application/json' size='10'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632420830674' status='passed' stop='1632420830882'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ad0a6cb0-4ad7-4a99-b39c-1f9419f0d34a-attachment.png' type='image/png' size='67672'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>The "url" argument must be of type string. Received undefined</message>
+                <stack-trace>TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+                    at new NodeError (node:internal/errors:371:5)
+                    at validateString (node:internal/validators:119:11)
+                    at Url.parse (node:url:169:3)
+                    at Object.urlParse [as parse] (node:url:156:13)
+                    at dispatchHttpRequest (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/axios/lib/adapters/http.js:98:22)
+                    at new Promise (&lt;anonymous>)
+                    at httpAdapter (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/axios/lib/adapters/http.js:46:10)
+                    at dispatchRequest (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/axios/lib/core/dispatchRequest.js:53:10)
+                    at Axios.request (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/axios/lib/core/Axios.js:108:15)
+                    at Axios.&lt;computed> [as get] (/Users/denyskhomenko/WebstormProjects/hookupio/node_modules/axios/lib/core/Axios.js:129:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

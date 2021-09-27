@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632428926354' stop='1632428927081'>
+    <name>Challenging DOM</name>
+    <title>Challenging DOM</title>
+    <test-cases>
+        <test-case start='1632428926355' status='passed' stop='1632428927080'>
+            <name>Here we need to find unique locators</name>
+            <title>Here we need to find unique locators</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632428926366' status='passed' stop='1632428927078'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='7dd460af-47c9-4838-b6ff-b3141bdd3fb4-attachment.json' type='application/json' size='65'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

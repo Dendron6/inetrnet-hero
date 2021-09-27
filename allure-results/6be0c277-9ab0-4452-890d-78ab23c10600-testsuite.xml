@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632422181253' stop='1632422182230'>
+    <name>Broken images</name>
+    <title>Broken images</title>
+    <test-cases>
+        <test-case start='1632422181254' status='passed' stop='1632422182227'>
+            <name>Fix the image 1</name>
+            <title>Fix the image 1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632422181433' status='passed' stop='1632422182137'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='bb54ea5c-550e-4016-a863-362bacd920c0-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632422182147' status='passed' stop='1632422182154'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='09508d4b-c03c-4665-8643-f9c7b624739d-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='ec127d5c-dc53-47fa-96d6-f804362e24d4-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632422182185' status='passed' stop='1632422182208'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='e13d3361-7c70-4df9-92e9-1889cca06f4e-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='e631ddc6-056b-4be5-b489-a5fcf6561fe4-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632422182187' status='passed' stop='1632422182207'>
+                            <name>getElementAttribute</name>
+                            <title>getElementAttribute</title>
+                            <attachments>
+                                <attachment title='Request' source='fa6eefa1-ed0f-4a9c-9f7f-7b59abea0510-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='7032d173-7664-467b-b1be-c8f477b81002-attachment.json' type='application/json' size='10'/>
+                            </attachments>
+                            <steps>
+                                <step start='1632422182188' status='passed' stop='1632422182206'>
+                                    <name>getElementAttribute</name>
+                                    <title>getElementAttribute</title>
+                                    <attachments>
+                                        <attachment title='Request' source='55b78fe0-c68c-4bb7-b879-fa162e6cdda2-attachment.json' type='application/json' size='47'/>
+                                        <attachment title='Response' source='6f647574-7834-485a-a66c-90939da77d4c-attachment.json' type='application/json' size='10'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

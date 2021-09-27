@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632768150386' stop='1632768151570'>
+    <name>Dynamic Controls</name>
+    <title>Dynamic Controls</title>
+    <test-cases>
+        <test-case start='1632768150386' status='passed' stop='1632768151566'>
+            <name>Asynchronious changes </name>
+            <title>Asynchronious changes </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632768150393' status='passed' stop='1632768151564'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='4cae4c63-d86f-4255-9f29-d1ad296a6ab3-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

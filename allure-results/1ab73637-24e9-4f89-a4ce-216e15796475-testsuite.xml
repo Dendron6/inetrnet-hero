@@ -1,0 +1,68 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632770676059' stop='1632770687188'>
+    <name>Dynamic Controls Test</name>
+    <title>Dynamic Controls Test</title>
+    <test-cases>
+        <test-case start='1632770676060' status='failed' stop='1632770687188'>
+            <name>Checkbox element is checked</name>
+            <title>Checkbox element is checked</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632770676068' status='passed' stop='1632770676846'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='9f65c432-8a7c-4577-b842-001acd474792-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632770676857' status='passed' stop='1632770676862'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='ec824e4c-407e-43ee-a902-522960db8d88-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='2653e622-e7ff-4004-a063-92471b3e5aa8-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632770676873' status='passed' stop='1632770676879'>
+                    <name>getElementText</name>
+                    <title>getElementText</title>
+                    <attachments>
+                        <attachment title='Request' source='963507b1-8d8e-426d-bca4-2f2ce21df696-attachment.json' type='application/json' size='30'/>
+                        <attachment title='Response' source='8cb61e4c-6171-482a-8964-3d4b43168a03-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632770686892' status='passed' stop='1632770687187'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='dffbc3bc-0fc8-4126-8acc-a226de1bc8d0-attachment.png' type='image/png' size='122794'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Expect  A checkbox to have property value
+                
+                Expected: " A checkbox"
+                Received: undefined</message>
+                <stack-trace>Error: Expect  A checkbox to have property value
+                
+                Expected: " A checkbox"
+                Received: undefined
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/dynamiccontrols.js:8:35)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

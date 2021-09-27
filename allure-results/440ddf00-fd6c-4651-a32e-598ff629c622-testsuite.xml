@@ -1,0 +1,82 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632422246243' stop='1632422247216'>
+    <name>Broken images</name>
+    <title>Broken images</title>
+    <test-cases>
+        <test-case start='1632422246243' status='broken' stop='1632422247215'>
+            <name>Fix the image 1</name>
+            <title>Fix the image 1</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-93.0.4577.82'/>
+            </parameters>
+            <steps>
+                <step start='1632422246249' status='passed' stop='1632422246885'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='9e55e623-3917-4193-9235-be35f285828d-attachment.json' type='application/json' size='63'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632422246894' status='passed' stop='1632422246907'>
+                    <name>findElements</name>
+                    <title>findElements</title>
+                    <attachments>
+                        <attachment title='Request' source='79492081-242b-4def-8fc1-2e173cf7ad4a-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='8ba3f3a4-66f3-490b-8a98-db4803593070-attachment.json' type='application/json' size='194'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632422246922' status='passed' stop='1632422246946'>
+                    <name>getElementAttribute</name>
+                    <title>getElementAttribute</title>
+                    <attachments>
+                        <attachment title='Request' source='d65e9339-7d50-454f-b448-816aebed1c01-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='d5fd4b46-f598-4a26-a38f-6514b1942d8a-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps>
+                        <step start='1632422246925' status='passed' stop='1632422246945'>
+                            <name>getElementAttribute</name>
+                            <title>getElementAttribute</title>
+                            <attachments>
+                                <attachment title='Request' source='62c8eb7d-3f1a-4d1f-a431-e118bfd3f298-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='36d00794-ab11-42b7-b46a-9c17f2fd41fd-attachment.json' type='application/json' size='10'/>
+                            </attachments>
+                            <steps>
+                                <step start='1632422246926' status='passed' stop='1632422246944'>
+                                    <name>getElementAttribute</name>
+                                    <title>getElementAttribute</title>
+                                    <attachments>
+                                        <attachment title='Request' source='ffbefe3d-2f28-4a0b-bc22-ecd83fda89f1-attachment.json' type='application/json' size='47'/>
+                                        <attachment title='Response' source='44bd0754-ad97-4996-ad4a-4b842a338b49-attachment.json' type='application/json' size='10'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1632422246953' status='passed' stop='1632422247214'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9122bd78-3eb0-4419-bd40-00ffc431a20d-attachment.png' type='image/png' size='67672'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>console.log(...) is not a function</message>
+                <stack-trace>TypeError: console.log(...) is not a function
+                    at Context.&lt;anonymous> (/Users/denyskhomenko/WebstormProjects/hookupio/test/specs/brokenimages.js:27:22)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

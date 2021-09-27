@@ -1,4 +1,9 @@
-const LoginPage = require("../pageobjects/login.page");
+const iFramePage = require('../pageobjects/');
 
-LoginPage.open('broken_images')
-console.log(LoginPage.listImg)
+
+describe('', async () => {
+    it('', async () => {
+        iFramePage.open('')
+
+    })
+})

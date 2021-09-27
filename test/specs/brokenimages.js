@@ -4,24 +4,32 @@ const axios = require("axios");
 
 
 describe('Broken images', async () => {
-    it.only('Fix the image 1', async () => {
-        //this function opens browser on the page I want it to be opened (https://the-internet.herokuapp.com/broken_images)
+    it('Fix the image 1', async () => {
         await LoginPage.open('broken_images');
-
-        //this action will create me a list of all the elements with class=example and under tag <img> there are 3 elements
-        const listInfo = $$(".example img")
-
+        const listInfo = LoginPage.listImg
         const urls = await listInfo.map(async (list) => {
-            //console.log('result1', list)
-            return list.getAttribute('src');
-        })
-        console.log('urls', urls.length)
-
-
-        const path = urls[2]
-        let link = 'https://the-internet.herokuapp.com/'+`${path}`
-        let actualStatusCode = (await axios.get(link)).status
-        await expect(actualStatusCode).toEqual(200)
+            return 'https://the-internet.herokuapp.com/' + (await list.getAttribute('src'));})
+        expect(urls[0]).toEqual("https://the-internet.herokuapp.com/asdf.jpg")
+        browser.pause(2000)
 
     })
+    it('Fix the image 1', async () => {
+        await LoginPage.open('broken_images');
+        const listInfo = LoginPage.listImg
+        const urls = await listInfo.map(async (list) => {
+            return 'https://the-internet.herokuapp.com/' + (await list.getAttribute('src'));})
+        expect(urls[1]).toEqual("https://the-internet.herokuapp.com/hjkl.jpg")
+        browser.pause(2000)
+
+    })
+    it('Fix the image 1', async () => {
+        await LoginPage.open('broken_images');
+        const listInfo = LoginPage.listImg
+        const urls = await listInfo.map(async (list) => {
+            return 'https://the-internet.herokuapp.com/' + (await list.getAttribute('src'));})
+        expect(urls[2]).toEqual("https://the-internet.herokuapp.com/img/avatar-blank.jpg")
+        browser.pause(2000)
+
+    })
+
 })

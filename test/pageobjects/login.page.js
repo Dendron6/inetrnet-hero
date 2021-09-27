@@ -41,13 +41,6 @@ class LoginPage extends Page {
         return $$(".example img")
     };
 
-    async getId(){
-        const ls = []
-        for (let i = 0; i<3; i++){
-            await ls.push(this.listImg[i].getAttribute('src'))
-            return ls.map(x =>(axios.get('https://the-internet.herokuapp.com/'+ x)).status)
-        }
-    }
 
 
     //checkboxes
